@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a tutorial for using hook with function style components.
+Some data was saved and changed with hook, like state in class style components.
 
 ## Available Scripts
 
