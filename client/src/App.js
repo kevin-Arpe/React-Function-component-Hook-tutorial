@@ -1,8 +1,12 @@
+//import
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+//Function Items Define
 const funcStyle = 'color: blue';
 let funcId = 0;
+
+//Function Component
 function FuncComp(props) {
   const numberState = useState(props.initNumber);
   const number = numberState[0];
@@ -56,8 +60,11 @@ function FuncComp(props) {
   );
 }
 
+//Class Items Define
 let classStyle = 'color: red';
 let classId = 0;
+
+//Class Component
 class ClassComp extends React.Component {
   state = {
     number: this.props.initNumber,
@@ -110,6 +117,7 @@ class ClassComp extends React.Component {
   }
 }
 
+//App
 function App() {
   let [funcShow, setFuncShow] = useState(true);
   let [classShow, setClassShow] = useState(true);
